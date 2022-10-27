@@ -11,6 +11,7 @@ import { SettingsViewComponent } from './views/settings-view/settings-view.compo
 import { PaymentsViewComponent } from './views/payments-view/payments-view.component';
 import { KontoComponent } from './components/konto/konto.component';
 import { PlanningViewComponent } from './views/planning-view/planning-view.component';
+import { CalendarComponent } from './components/calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PlanningViewComponent } from './views/planning-view/planning-view.compo
     SettingsViewComponent,
     PaymentsViewComponent,
     KontoComponent,
-    PlanningViewComponent
+    PlanningViewComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
