@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { MainViewComponent } from './views/main-view/main-view.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome'
-import { faCreditCard, faGear, faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faCreditCard, faGear, faHouse } from '@fortawesome/free-solid-svg-icons';
 import { SettingsViewComponent } from './views/settings-view/settings-view.component';
 import { PaymentsViewComponent } from './views/payments-view/payments-view.component';
 import { KontoComponent } from './components/konto/konto.component';
@@ -30,6 +30,6 @@ import { KontoComponent } from './components/konto/konto.component';
 })
 export class AppModule {
   constructor(library: FaIconLibrary) {
-    library.addIcons(faHouse, faGear, faCreditCard);
+    library.addIcons(faHouse, faGear, faCreditCard, faCalendar);
   }
 }
