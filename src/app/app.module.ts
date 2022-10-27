@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { MainViewComponent } from './views/main-view/main-view.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faCreditCard, faGear, faHouse } from '@fortawesome/free-solid-svg-icons';
 
 @NgModule({
   declarations: [
@@ -24,6 +24,6 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppModule {
   constructor(library: FaIconLibrary) {
-    library.addIcons(faHouse);
+    library.addIcons(faHouse, faGear, faCreditCard);
   }
 }

@@ -1,0 +1,30 @@
+@import 'src/styles';
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: $menu-bg-color;
+}
+
+.section {
+    text-align: center;
+    justify-content: center;
+    color: $menu-text-color;
+}
+
+.section fa-icon {
+    font-size: 30px;
+}
+
+.section p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.isActive {
+    color: $highlight-color !important;
+}

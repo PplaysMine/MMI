@@ -1,5 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+$highlight-color: #008eda;
+
+$menu-text-color: #bababa;
+$menu-bg-color: white;
+
 html, body {
     margin: 0;
     padding: 0;
+
+    font-family: 'Avenir';
+}
+
+a {
+    text-decoration: none;
+    color: $menu-text-color;
 }
