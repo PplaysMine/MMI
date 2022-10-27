@@ -10,8 +10,8 @@ $card-bg-color: white;
 html, body {
     margin: 0;
     padding: 0;
-
     font-family: 'Avenir';
+    -webkit-tap-highlight-color: transparent;
 }
 
 a {
