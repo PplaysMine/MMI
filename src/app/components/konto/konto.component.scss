@@ -3,14 +3,23 @@
 .frame {
     background-color: $card-bg-color;
     width: auto;
-    padding: 100px;
+    height: 200px;
+    margin: 0 10px;
     box-sizing: border-box;
     border-radius: 20px;
-    margin: 0 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.overview {
     text-align: center;
+    justify-content: center;
+    padding-top: 5px;
 }
 
 .kontostand {
-    font-size: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }

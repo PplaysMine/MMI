@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KontoComponent implements OnInit {
 
-  stand: number = 1000;
+  stand: string = "1315,57";
 
   constructor() { }
 
@@ -16,6 +16,10 @@ export class KontoComponent implements OnInit {
 
   getKontostand(): string {
     return this.stand.toString();
+  }
+
+  getRecentActivity(): string {
+    return '';
   }
 
 }
