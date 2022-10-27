@@ -9,6 +9,7 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
 import { faCreditCard, faGear, faHouse } from '@fortawesome/free-solid-svg-icons';
 import { SettingsViewComponent } from './views/settings-view/settings-view.component';
 import { PaymentsViewComponent } from './views/payments-view/payments-view.component';
+import { KontoComponent } from './components/konto/konto.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PaymentsViewComponent } from './views/payments-view/payments-view.compo
     MenuComponent,
     MainViewComponent,
     SettingsViewComponent,
-    PaymentsViewComponent
+    PaymentsViewComponent,
+    KontoComponent
   ],
   imports: [
     BrowserModule,
