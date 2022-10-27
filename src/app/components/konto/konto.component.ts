@@ -19,7 +19,7 @@ export class KontoComponent implements OnInit {
   }
 
   getRecentActivity(): string {
-    return '';
+    return '- 13,27€';
   }
 
 }
