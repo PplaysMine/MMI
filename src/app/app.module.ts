@@ -10,6 +10,7 @@ import { faCalendar, faCreditCard, faGear, faHouse } from '@fortawesome/free-sol
 import { SettingsViewComponent } from './views/settings-view/settings-view.component';
 import { PaymentsViewComponent } from './views/payments-view/payments-view.component';
 import { KontoComponent } from './components/konto/konto.component';
+import { PlanningViewComponent } from './views/planning-view/planning-view.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { KontoComponent } from './components/konto/konto.component';
     MainViewComponent,
     SettingsViewComponent,
     PaymentsViewComponent,
-    KontoComponent
+    KontoComponent,
+    PlanningViewComponent
   ],
   imports: [
     BrowserModule,
