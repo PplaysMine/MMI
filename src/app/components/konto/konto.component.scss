@@ -1,0 +1,16 @@
+@import "src/styles";
+
+.frame {
+    background-color: $card-bg-color;
+    width: auto;
+    padding: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+.kontostand {
+    font-size: 30px;
+}
