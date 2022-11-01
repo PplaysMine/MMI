@@ -18,3 +18,8 @@
     font-weight: bold;
     background-color: $calendar-border;
 }
+
+.today {
+    border: 2px solid $red;
+    border-radius: 4px;
+}

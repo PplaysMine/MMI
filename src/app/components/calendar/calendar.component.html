@@ -1,4 +1,4 @@
 <div class="calendar">
     <p class="day name" *ngFor="let n of dayNames">{{ n }}</p>
-    <p class="day" *ngFor="let d of days"><ng-container *ngIf="d !== 0">{{ d }}</ng-container></p>
+    <p class="day" *ngFor="let d of days" [class.today]="currentDay === d" (click)="null"><ng-container *ngIf="d !== 0">{{ d }}</ng-container></p>
 </div>

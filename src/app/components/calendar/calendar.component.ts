@@ -9,6 +9,7 @@ export class CalendarComponent implements OnInit {
 
   dayNames: string[] = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
   days: (number | null)[] = [];
+  currentDay: number = 0;
 
   private done: boolean = false;
 
@@ -19,6 +20,7 @@ export class CalendarComponent implements OnInit {
     let year = new Date().getFullYear();
     let totalDays = this.daysInMonth(year, month);
     let firstDay = this.getFirst(year, month);
+    this.currentDay = new Date().getDay() - 1;
     let counter = 0;
     for(let i = 1; i < totalDays+1; i++) {
       if(firstDay != i && !this.done) {
